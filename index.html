@@ -42,11 +42,10 @@
       font-size: 1.05rem;
       background-size: cover;
       background-position: center;
-      transition: transform 0.2s;
       box-shadow: 0 6px 18px rgba(0,0,0,0.4);
+      transition: transform 0.2s ease;
     }
 
-    /* затемнение */
     .tour-card::before {
       content: "";
       position: absolute;
@@ -56,20 +55,18 @@
       z-index: 1;
     }
 
-    /* текст */
-    .tour-card span {
-      position: relative;
-      z-index: 2;
-      text-align: center;
-    }
-
-    /* hover */
     .tour-card:hover {
       transform: translateY(-4px);
     }
 
     .tour-card:hover::before {
       background: rgba(0,0,0,0.15);
+    }
+
+    .tour-card span {
+      position: relative;
+      z-index: 2;
+      text-align: center;
     }
 
     @media (max-width: 1200px) {
@@ -96,7 +93,7 @@
 
     const grid = document.getElementById("tour-grid");
 
-    async function getFirstImage(folder) {
+    async function getPreviewImage(folder) {
       try {
         const url = `https://api.github.com/repos/${owner}/${repo}/contents/Tours/${folder}/output/images`;
         const res = await fetch(url);
@@ -104,11 +101,12 @@
 
         if (!Array.isArray(data)) return null;
 
-        const img = data.find(f =>
-          f.name.match(/\.(jpg|jpeg|png|webp)$/i)
+        const preview = data.find(f =>
+          f.name.toLowerCase().includes("preview") &&
+          /\.(jpg|jpeg|png|webp)$/i.test(f.name)
         );
 
-        return img ? img.download_url : null;
+        return preview ? preview.download_url : null;
 
       } catch (e) {
         return null;
@@ -121,10 +119,15 @@
         const res = await fetch(url);
         const data = await res.json();
 
+        if (!Array.isArray(data)) {
+          throw new Error("GitHub API error");
+        }
+
         const folders = data.filter(item => item.type === "dir");
 
         for (const folder of folders) {
-          const img = await getFirstImage(folder.name);
+
+          const img = await getPreviewImage(folder.name);
 
           const a = document.createElement("a");
           a.className = "tour-card";
