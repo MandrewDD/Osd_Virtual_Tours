@@ -93,7 +93,7 @@
 
     const grid = document.getElementById("tour-grid");
 
-    async function getPreviewImage(folder) {
+    async function getPreview(folder) {
       try {
         const url = `https://api.github.com/repos/${owner}/${repo}/contents/Tours/${folder}/output/images`;
         const res = await fetch(url);
@@ -125,10 +125,16 @@
 
         const folders = data.filter(item => item.type === "dir");
 
-        for (const folder of folders) {
+        // ⚡ ПАРАЛЛЕЛЬНАЯ ЗАГРУЗКА ПРЕВЬЮ
+        const results = await Promise.all(
+          folders.map(async (folder) => {
+            const img = await getPreview(folder.name);
+            return { folder, img };
+          })
+        );
 
-          const img = await getPreviewImage(folder.name);
-
+        // Рендер без ожиданий
+        results.forEach(({ folder, img }) => {
           const a = document.createElement("a");
           a.className = "tour-card";
           a.href = `Tours/${folder.name}/output/index.html`;
@@ -144,7 +150,7 @@
 
           a.appendChild(span);
           grid.appendChild(a);
-        }
+        });
 
       } catch (e) {
         console.error(e);
