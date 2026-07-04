@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour start="node1" appversion="5.2.4" apprev="15996">
+  <panorama id="node1">
+    <input height="1000" overlap="1" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" width="1000" levelingroll="0" leveltilesize="510" levelbiashidpi="0.400" levelingpitch="0">
+      <level height="1000" width="1000" predecode="0" preload="0"/>
+      <level height="500" width="500" predecode="1" preload="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="0" fov="70" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max fovfisheye="360" fovstereographic="270" scaletofit="1" pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata description="" customnodeid="" title="" author="" datetime="2026:07:04 18:08:05" longitude="" comment="" latitude="" source="" info="" tags="Baba_Yaga_Tour_1" copyright=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label height="20" textcolor="0x000000" backgroundalpha="1" border="1" background="1" borderalpha="1" wordwrap="1" width="180" backgroundcolor="0xffffff" bordercolor="0x000000" textalpha="1" enabled="1" borderradius="1"/>
+      <polystyle backgroundalpha="0.2509803921568627" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
+      <hotspot skinid="ht_node" description="" title="" id="Point01" pan="-0.25" url="{node2}" target="" tilt="-15.66"/>
+      <hotspot skinid="ht_node" description="" title="" id="Point02" pan="0.00999996" url="{node3}" target="" tilt="-4.6"/>
+      <hotspot skinid="ht_node" description="" title="" id="Point03" pan="60.14" url="{node5}" target="" tilt="-5.13"/>
+      <hotspot skinid="ht_node" description="" title="" id="Point04" pan="-89.28" url="{node4}" target="" tilt="5.12"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" zoomin="0" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomspeed="2" zoomfov="20" zoomout="0" enabled="0"/>
+    <control lockedmouse="0" dblclickfullscreen="0" contextfullscreen="0" sensitivity="8" invertwheel="0" speedwheel="1" contextprojections="0" hideabout="0" simulatemass="1" lockedkeyboardzoom="0" lockedkeyboard="0" invertcontrol="1" lockedwheel="0" rubberband="0"/>
+  </panorama>
+  <panorama id="node2">
+    <input height="1000" overlap="1" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" width="1000" levelingroll="0" leveltilesize="510" levelbiashidpi="0.400" levelingpitch="0">
+      <level height="1000" width="1000" predecode="0" preload="0"/>
+      <level height="500" width="500" predecode="1" preload="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="0" fov="70" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max fovfisheye="360" fovstereographic="270" scaletofit="1" pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata description="" customnodeid="" title="" author="" datetime="2026:07:04 18:09:16" longitude="" comment="" latitude="" source="" info="" tags="Baba_Yaga_Tour_1" copyright=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label height="20" textcolor="0x000000" backgroundalpha="1" border="1" background="1" borderalpha="1" wordwrap="1" width="180" backgroundcolor="0xffffff" bordercolor="0x000000" textalpha="1" enabled="1" borderradius="1"/>
+      <polystyle backgroundalpha="0.2509803921568627" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
+      <hotspot skinid="ht_node" description="" title="" id="Point01" pan="-0.65" url="{node3}" target="" tilt="-9.78"/>
+      <hotspot skinid="ht_node" description="" title="" id="Point02" pan="-177.15" url="{node1}" target="" tilt="-27.94"/>
+      <hotspot skinid="ht_node" description="" title="" id="Point03" pan="91.6" url="{node5}" target="" tilt="-10.15"/>
+      <hotspot skinid="ht_node" description="" title="" id="Point04" pan="-114.33" url="{node4}" target="" tilt="4.15"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" zoomin="0" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomspeed="2" zoomfov="20" zoomout="0" enabled="0"/>
+    <control lockedmouse="0" dblclickfullscreen="0" contextfullscreen="0" sensitivity="8" invertwheel="0" speedwheel="1" contextprojections="0" hideabout="0" simulatemass="1" lockedkeyboardzoom="0" lockedkeyboard="0" invertcontrol="1" lockedwheel="0" rubberband="0"/>
+  </panorama>
+  <panorama id="node3">
+    <input height="1000" overlap="1" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" width="1000" levelingroll="0" leveltilesize="510" levelbiashidpi="0.400" levelingpitch="0">
+      <level height="1000" width="1000" predecode="0" preload="0"/>
+      <level height="500" width="500" predecode="1" preload="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="0" fov="70" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max fovfisheye="360" fovstereographic="270" scaletofit="1" pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata description="" customnodeid="" title="" author="" datetime="2026:07:04 18:10:34" longitude="" comment="" latitude="" source="" info="" tags="Baba_Yaga_Tour_1" copyright=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label height="20" textcolor="0x000000" backgroundalpha="1" border="1" background="1" borderalpha="1" wordwrap="1" width="180" backgroundcolor="0xffffff" bordercolor="0x000000" textalpha="1" enabled="1" borderradius="1"/>
+      <polystyle backgroundalpha="0.2509803921568627" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
+      <hotspot skinid="ht_node" description="" title="" id="Point01" pan="-176.81" url="{node2}" target="" tilt="-22.84"/>
+      <hotspot skinid="ht_node" description="" title="" id="Point02" pan="-176.52" url="{node1}" target="" tilt="-11.04"/>
+      <hotspot skinid="ht_node" description="" title="" id="Point03" pan="157.32" url="{node5}" target="" tilt="-1.86"/>
+      <hotspot skinid="ht_node" description="" title="" id="Point04" pan="-140.44" url="{node4}" target="" tilt="-0.35"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" zoomin="0" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomspeed="2" zoomfov="20" zoomout="0" enabled="0"/>
+    <control lockedmouse="0" dblclickfullscreen="0" contextfullscreen="0" sensitivity="8" invertwheel="0" speedwheel="1" contextprojections="0" hideabout="0" simulatemass="1" lockedkeyboardzoom="0" lockedkeyboard="0" invertcontrol="1" lockedwheel="0" rubberband="0"/>
+  </panorama>
+  <panorama id="node4">
+    <input height="1000" overlap="1" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" width="1000" levelingroll="0" leveltilesize="510" levelbiashidpi="0.400" levelingpitch="0">
+      <level height="1000" width="1000" predecode="0" preload="0"/>
+      <level height="500" width="500" predecode="1" preload="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="0" fov="70" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max fovfisheye="360" fovstereographic="270" scaletofit="1" pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata description="" customnodeid="" title="" author="" datetime="2026:07:04 18:11:43" longitude="" comment="" latitude="" source="" info="" tags="Baba_Yaga_Tour_1" copyright=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label height="20" textcolor="0x000000" backgroundalpha="1" border="1" background="1" borderalpha="1" wordwrap="1" width="180" backgroundcolor="0xffffff" bordercolor="0x000000" textalpha="1" enabled="1" borderradius="1"/>
+      <polystyle backgroundalpha="0.2509803921568627" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
+      <hotspot skinid="ht_node" description="" title="" id="Point01" pan="115.33" url="{node1}" target="" tilt="-20.74"/>
+      <hotspot skinid="ht_node" description="" title="" id="Point02" pan="70.75" url="{node2}" target="" tilt="-19.04"/>
+      <hotspot skinid="ht_node" description="" title="" id="Point03" pan="83.4" url="{node5}" target="" tilt="-6.45"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" zoomin="0" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomspeed="2" zoomfov="20" zoomout="0" enabled="0"/>
+    <control lockedmouse="0" dblclickfullscreen="0" contextfullscreen="0" sensitivity="8" invertwheel="0" speedwheel="1" contextprojections="0" hideabout="0" simulatemass="1" lockedkeyboardzoom="0" lockedkeyboard="0" invertcontrol="1" lockedwheel="0" rubberband="0"/>
+  </panorama>
+  <panorama id="node5">
+    <input height="1000" overlap="1" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" width="1000" levelingroll="0" leveltilesize="510" levelbiashidpi="0.400" levelingpitch="0">
+      <level height="1000" width="1000" predecode="0" preload="0"/>
+      <level height="500" width="500" predecode="1" preload="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="0" fov="70" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max fovfisheye="360" fovstereographic="270" scaletofit="1" pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata description="" customnodeid="" title="" author="" datetime="2026:07:04 18:12:57" longitude="" comment="" latitude="" source="" info="" tags="Baba_Yaga_Tour_1" copyright=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label height="20" textcolor="0x000000" backgroundalpha="1" border="1" background="1" borderalpha="1" wordwrap="1" width="180" backgroundcolor="0xffffff" bordercolor="0x000000" textalpha="1" enabled="1" borderradius="1"/>
+      <polystyle backgroundalpha="0.2509803921568627" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
+      <hotspot skinid="ht_node" description="" title="" id="Point01" pan="-100.77" url="{node4}" target="" tilt="-0.94"/>
+      <hotspot skinid="ht_node" description="" title="" id="Point02" pan="-70.66" url="{node2}" target="" tilt="-24.84"/>
+      <hotspot skinid="ht_node" description="" title="" id="Point03" pan="-122.32" url="{node1}" target="" tilt="-23.53"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" zoomin="0" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomspeed="2" zoomfov="20" zoomout="0" enabled="0"/>
+    <control lockedmouse="0" dblclickfullscreen="0" contextfullscreen="0" sensitivity="8" invertwheel="0" speedwheel="1" contextprojections="0" hideabout="0" simulatemass="1" lockedkeyboardzoom="0" lockedkeyboard="0" invertcontrol="1" lockedwheel="0" rubberband="0"/>
+  </panorama>
+</tour>
