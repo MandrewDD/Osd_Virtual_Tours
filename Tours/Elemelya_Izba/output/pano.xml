@@ -1,95 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour apprev="15996" start="node1" appversion="5.2.4">
+<tour appversion="5.2.4" apprev="15996" start="node1">
   <panorama id="node1">
-    <input leveltilesize="510" levelingroll="0" levelingpitch="0" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" overlap="1" width="500" height="500" levelbiashidpi="0.400">
-      <level predecode="1" width="500" preload="1" height="500"/>
-      <preview color="0x808080" strip="1"/>
+    <input levelingroll="0" levelbiashidpi="0.400" levelbias="0.400" leveltilesize="510" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1000" overlap="1" levelingpitch="0" width="1000">
+      <level height="1000" preload="0" predecode="0" width="1000"/>
+      <level height="500" preload="1" predecode="1" width="500"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start tilt="0" projection="4" fov="70" pan="0"/>
-      <flyin tilt="-90" projection="9" fov="170" pan="0"/>
-      <min tilt="-90" fov="5" pan="0"/>
-      <max tilt="90" fov="120" fovfisheye="360" scaletofit="1" pan="360" fovstereographic="270"/>
+      <start pan="0" tilt="0" fov="70" projection="4"/>
+      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
+      <min pan="0" tilt="-90" fov="5"/>
+      <max fovstereographic="270" pan="360" tilt="90" scaletofit="1" fov="120" fovfisheye="360"/>
     </view>
-    <userdata tags="TourElemelya1" title="" info="" source="" longitude="" author="" description="" customnodeid="" latitude="" datetime="" comment="" copyright=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label textalpha="1" borderradius="1" borderalpha="1" wordwrap="1" width="180" textcolor="0x000000" backgroundalpha="1" enabled="1" border="1" backgroundcolor="0xffffff" height="20" background="1" bordercolor="0x000000"/>
-      <polystyle borderalpha="1" backgroundalpha="0.2509803921568627" mode="0" backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff"/>
-      <hotspot tilt="-9.46" title="" id="Point01" description="" url="{node2}" skinid="ht_node" target="" pan="5.87"/>
-      <hotspot tilt="-8.16" title="" id="Point02" description="" url="{node3}" skinid="ht_node" target="" pan="-28.22"/>
-      <hotspot tilt="-4.73" title="" id="Point03" description="" url="{node4}" skinid="ht_node" target="" pan="-56.98"/>
+    <userdata title="" comment="" tags="TourElemelya1" datetime="" source="" info="" customnodeid="" author="" latitude="" longitude="" description="" copyright=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundalpha="1" background="1" backgroundcolor="0xffffff" bordercolor="0x000000" enabled="1" textalpha="1" height="20" textcolor="0x000000" border="1" wordwrap="1" width="180" borderalpha="1" borderradius="1"/>
+      <polystyle backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" mode="0" borderalpha="1" handcursor="1"/>
+      <hotspot title="" pan="5.87" skinid="ht_node" tilt="-9.46" description="" id="Point01" url="{node2}" target=""/>
+      <hotspot title="" pan="-28.22" skinid="ht_node" tilt="-8.16" description="" id="Point02" url="{node3}" target=""/>
+      <hotspot title="" pan="-56.98" skinid="ht_node" tilt="-4.73" description="" id="Point03" url="{node4}" target=""/>
     </hotspots>
     <media/>
-    <transition zoomin="0" zoomspeed="2" zoomoutpause="1" softedge="0" blendtime="1" blendcolor="0x000000" enabled="0" zoomout="0" type="crossdissolve" zoomfov="20"/>
-    <control simulatemass="1" contextfullscreen="0" speedwheel="1" sensitivity="8" lockedmouse="0" lockedkeyboardzoom="0" hideabout="0" invertwheel="0" dblclickfullscreen="0" lockedkeyboard="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedwheel="0"/>
+    <transition zoomin="0" zoomout="0" blendcolor="0x000000" softedge="0" zoomoutpause="1" zoomfov="20" enabled="0" type="crossdissolve" blendtime="1" zoomspeed="2"/>
+    <control simulatemass="1" speedwheel="1" sensitivity="8" lockedwheel="0" rubberband="0" lockedmouse="0" dblclickfullscreen="0" lockedkeyboardzoom="0" contextprojections="0" lockedkeyboard="0" invertwheel="0" contextfullscreen="0" hideabout="0" invertcontrol="1"/>
   </panorama>
   <panorama id="node2">
-    <input leveltilesize="510" levelingroll="0" levelingpitch="0" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" overlap="1" width="500" height="500" levelbiashidpi="0.400">
-      <level predecode="1" width="500" preload="1" height="500"/>
-      <preview color="0x808080" strip="1"/>
+    <input levelingroll="0" levelbiashidpi="0.400" levelbias="0.400" leveltilesize="510" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1000" overlap="1" levelingpitch="0" width="1000">
+      <level height="1000" preload="0" predecode="0" width="1000"/>
+      <level height="500" preload="1" predecode="1" width="500"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start tilt="0" projection="4" fov="70" pan="0"/>
-      <flyin tilt="-90" projection="9" fov="170" pan="0"/>
-      <min tilt="-90" fov="5" pan="0"/>
-      <max tilt="90" fov="120" fovfisheye="360" scaletofit="1" pan="360" fovstereographic="270"/>
+      <start pan="0" tilt="0" fov="70" projection="4"/>
+      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
+      <min pan="0" tilt="-90" fov="5"/>
+      <max fovstereographic="270" pan="360" tilt="90" scaletofit="1" fov="120" fovfisheye="360"/>
     </view>
-    <userdata tags="TourElemelya1" title="" info="" source="" longitude="" author="" description="" customnodeid="" latitude="" datetime="" comment="" copyright=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label textalpha="1" borderradius="1" borderalpha="1" wordwrap="1" width="180" textcolor="0x000000" backgroundalpha="1" enabled="1" border="1" backgroundcolor="0xffffff" height="20" background="1" bordercolor="0x000000"/>
-      <polystyle borderalpha="1" backgroundalpha="0.2509803921568627" mode="0" backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff"/>
-      <hotspot tilt="-29.91" title="" id="Point01" description="" url="{node3}" skinid="ht_node" target="" pan="-93.18"/>
-      <hotspot tilt="-12.3" title="" id="Point02" description="" url="{node4}" skinid="ht_node" target="" pan="-90.83"/>
-      <hotspot tilt="-23.31" title="" id="Point03" description="" url="{node1}" skinid="ht_node" target="" pan="-174.06"/>
+    <userdata title="" comment="" tags="TourElemelya1" datetime="" source="" info="" customnodeid="" author="" latitude="" longitude="" description="" copyright=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundalpha="1" background="1" backgroundcolor="0xffffff" bordercolor="0x000000" enabled="1" textalpha="1" height="20" textcolor="0x000000" border="1" wordwrap="1" width="180" borderalpha="1" borderradius="1"/>
+      <polystyle backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" mode="0" borderalpha="1" handcursor="1"/>
+      <hotspot title="" pan="-93.18" skinid="ht_node" tilt="-29.91" description="" id="Point01" url="{node3}" target=""/>
+      <hotspot title="" pan="-90.83" skinid="ht_node" tilt="-12.3" description="" id="Point02" url="{node4}" target=""/>
+      <hotspot title="" pan="-174.06" skinid="ht_node" tilt="-23.31" description="" id="Point03" url="{node1}" target=""/>
     </hotspots>
     <media/>
-    <transition zoomin="0" zoomspeed="2" zoomoutpause="1" softedge="0" blendtime="1" blendcolor="0x000000" enabled="0" zoomout="0" type="crossdissolve" zoomfov="20"/>
-    <control simulatemass="1" contextfullscreen="0" speedwheel="1" sensitivity="8" lockedmouse="0" lockedkeyboardzoom="0" hideabout="0" invertwheel="0" dblclickfullscreen="0" lockedkeyboard="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedwheel="0"/>
+    <transition zoomin="0" zoomout="0" blendcolor="0x000000" softedge="0" zoomoutpause="1" zoomfov="20" enabled="0" type="crossdissolve" blendtime="1" zoomspeed="2"/>
+    <control simulatemass="1" speedwheel="1" sensitivity="8" lockedwheel="0" rubberband="0" lockedmouse="0" dblclickfullscreen="0" lockedkeyboardzoom="0" contextprojections="0" lockedkeyboard="0" invertwheel="0" contextfullscreen="0" hideabout="0" invertcontrol="1"/>
   </panorama>
   <panorama id="node3">
-    <input leveltilesize="510" levelingroll="0" levelingpitch="0" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" overlap="1" width="500" height="500" levelbiashidpi="0.400">
-      <level predecode="1" width="500" preload="1" height="500"/>
-      <preview color="0x808080" strip="1"/>
+    <input levelingroll="0" levelbiashidpi="0.400" levelbias="0.400" leveltilesize="510" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1000" overlap="1" levelingpitch="0" width="1000">
+      <level height="1000" preload="0" predecode="0" width="1000"/>
+      <level height="500" preload="1" predecode="1" width="500"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start tilt="0" projection="4" fov="70" pan="0"/>
-      <flyin tilt="-90" projection="9" fov="170" pan="0"/>
-      <min tilt="-90" fov="5" pan="0"/>
-      <max tilt="90" fov="120" fovfisheye="360" scaletofit="1" pan="360" fovstereographic="270"/>
+      <start pan="0" tilt="0" fov="70" projection="4"/>
+      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
+      <min pan="0" tilt="-90" fov="5"/>
+      <max fovstereographic="270" pan="360" tilt="90" scaletofit="1" fov="120" fovfisheye="360"/>
     </view>
-    <userdata tags="TourElemelya1" title="" info="" source="" longitude="" author="" description="" customnodeid="" latitude="" datetime="" comment="" copyright=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label textalpha="1" borderradius="1" borderalpha="1" wordwrap="1" width="180" textcolor="0x000000" backgroundalpha="1" enabled="1" border="1" backgroundcolor="0xffffff" height="20" background="1" bordercolor="0x000000"/>
-      <polystyle borderalpha="1" backgroundalpha="0.2509803921568627" mode="0" backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff"/>
-      <hotspot tilt="-29.06" title="" id="Point01" description="" url="{node4}" skinid="ht_node" target="" pan="-80"/>
-      <hotspot tilt="-11.62" title="" id="Point02" description="" url="{node1}" skinid="ht_node" target="" pan="152.39"/>
-      <hotspot tilt="-15.61" title="" id="Point03" description="" url="{node2}" skinid="ht_node" target="" pan="75.18"/>
+    <userdata title="" comment="" tags="TourElemelya1" datetime="" source="" info="" customnodeid="" author="" latitude="" longitude="" description="" copyright=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundalpha="1" background="1" backgroundcolor="0xffffff" bordercolor="0x000000" enabled="1" textalpha="1" height="20" textcolor="0x000000" border="1" wordwrap="1" width="180" borderalpha="1" borderradius="1"/>
+      <polystyle backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" mode="0" borderalpha="1" handcursor="1"/>
+      <hotspot title="" pan="-80" skinid="ht_node" tilt="-29.06" description="" id="Point01" url="{node4}" target=""/>
+      <hotspot title="" pan="152.39" skinid="ht_node" tilt="-11.62" description="" id="Point02" url="{node1}" target=""/>
+      <hotspot title="" pan="75.18" skinid="ht_node" tilt="-15.61" description="" id="Point03" url="{node2}" target=""/>
     </hotspots>
     <media/>
-    <transition zoomin="0" zoomspeed="2" zoomoutpause="1" softedge="0" blendtime="1" blendcolor="0x000000" enabled="0" zoomout="0" type="crossdissolve" zoomfov="20"/>
-    <control simulatemass="1" contextfullscreen="0" speedwheel="1" sensitivity="8" lockedmouse="0" lockedkeyboardzoom="0" hideabout="0" invertwheel="0" dblclickfullscreen="0" lockedkeyboard="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedwheel="0"/>
+    <transition zoomin="0" zoomout="0" blendcolor="0x000000" softedge="0" zoomoutpause="1" zoomfov="20" enabled="0" type="crossdissolve" blendtime="1" zoomspeed="2"/>
+    <control simulatemass="1" speedwheel="1" sensitivity="8" lockedwheel="0" rubberband="0" lockedmouse="0" dblclickfullscreen="0" lockedkeyboardzoom="0" contextprojections="0" lockedkeyboard="0" invertwheel="0" contextfullscreen="0" hideabout="0" invertcontrol="1"/>
   </panorama>
   <panorama id="node4">
-    <input leveltilesize="510" levelingroll="0" levelingpitch="0" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" overlap="1" width="500" height="500" levelbiashidpi="0.400">
-      <level predecode="1" width="500" preload="1" height="500"/>
-      <preview color="0x808080" strip="1"/>
+    <input levelingroll="0" levelbiashidpi="0.400" levelbias="0.400" leveltilesize="510" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1000" overlap="1" levelingpitch="0" width="1000">
+      <level height="1000" preload="0" predecode="0" width="1000"/>
+      <level height="500" preload="1" predecode="1" width="500"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start tilt="0" projection="4" fov="70" pan="0"/>
-      <flyin tilt="-90" projection="9" fov="170" pan="0"/>
-      <min tilt="-90" fov="5" pan="0"/>
-      <max tilt="90" fov="120" fovfisheye="360" scaletofit="1" pan="360" fovstereographic="270"/>
+      <start pan="0" tilt="0" fov="70" projection="4"/>
+      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
+      <min pan="0" tilt="-90" fov="5"/>
+      <max fovstereographic="270" pan="360" tilt="90" scaletofit="1" fov="120" fovfisheye="360"/>
     </view>
-    <userdata tags="TourElemelya1" title="" info="" source="" longitude="" author="" description="" customnodeid="" latitude="" datetime="" comment="" copyright=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label textalpha="1" borderradius="1" borderalpha="1" wordwrap="1" width="180" textcolor="0x000000" backgroundalpha="1" enabled="1" border="1" backgroundcolor="0xffffff" height="20" background="1" bordercolor="0x000000"/>
-      <polystyle borderalpha="1" backgroundalpha="0.2509803921568627" mode="0" backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff"/>
-      <hotspot tilt="-26.8" title="" id="Point01" description="" url="{node3}" skinid="ht_node" target="" pan="77.5"/>
-      <hotspot tilt="-15.23" title="" id="Point02" description="" url="{node2}" skinid="ht_node" target="" pan="83.55"/>
-      <hotspot tilt="-8.55" title="" id="Point03" description="" url="{node1}" skinid="ht_node" target="" pan="114.44"/>
+    <userdata title="" comment="" tags="TourElemelya1" datetime="" source="" info="" customnodeid="" author="" latitude="" longitude="" description="" copyright=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundalpha="1" background="1" backgroundcolor="0xffffff" bordercolor="0x000000" enabled="1" textalpha="1" height="20" textcolor="0x000000" border="1" wordwrap="1" width="180" borderalpha="1" borderradius="1"/>
+      <polystyle backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" mode="0" borderalpha="1" handcursor="1"/>
+      <hotspot title="" pan="77.5" skinid="ht_node" tilt="-26.8" description="" id="Point01" url="{node3}" target=""/>
+      <hotspot title="" pan="83.55" skinid="ht_node" tilt="-15.23" description="" id="Point02" url="{node2}" target=""/>
+      <hotspot title="" pan="114.44" skinid="ht_node" tilt="-8.55" description="" id="Point03" url="{node1}" target=""/>
     </hotspots>
     <media/>
-    <transition zoomin="0" zoomspeed="2" zoomoutpause="1" softedge="0" blendtime="1" blendcolor="0x000000" enabled="0" zoomout="0" type="crossdissolve" zoomfov="20"/>
-    <control simulatemass="1" contextfullscreen="0" speedwheel="1" sensitivity="8" lockedmouse="0" lockedkeyboardzoom="0" hideabout="0" invertwheel="0" dblclickfullscreen="0" lockedkeyboard="0" contextprojections="0" rubberband="0" invertcontrol="1" lockedwheel="0"/>
+    <transition zoomin="0" zoomout="0" blendcolor="0x000000" softedge="0" zoomoutpause="1" zoomfov="20" enabled="0" type="crossdissolve" blendtime="1" zoomspeed="2"/>
+    <control simulatemass="1" speedwheel="1" sensitivity="8" lockedwheel="0" rubberband="0" lockedmouse="0" dblclickfullscreen="0" lockedkeyboardzoom="0" contextprojections="0" lockedkeyboard="0" invertwheel="0" contextfullscreen="0" hideabout="0" invertcontrol="1"/>
   </panorama>
 </tour>
