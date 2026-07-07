@@ -490,9 +490,22 @@
     <output>
       <htmlcss>
         <html>
-          <values/>
           <enabled>1</enabled>
           <filename>output/index.html</filename>
+          <values>
+            <value id="css"></value>
+            <value id="gginfo">false</value>
+            <value id="gyro">false</value>
+            <value id="gyrodisable">false</value>
+            <value id="gyronorth">false</value>
+            <value id="gyroroll">false</value>
+            <value id="gyrosmooth">true</value>
+            <value id="jsxml">false</value>
+            <value id="parseanchor">false</value>
+            <value id="swf"></value>
+            <value id="swffirst">false</value>
+            <value id="swfgeneric">false</value>
+          </values>
         </html>
         <facequality/>
         <transition/>
@@ -503,6 +516,7 @@
         <hotspotstyle/>
         <tilesize>1000</tilesize>
         <filename>output/pano.xml</filename>
+        <skinfile>simplex_v5_autohide.ggsk</skinfile>
       </htmlcss>
     </output>
     <streetview/>
