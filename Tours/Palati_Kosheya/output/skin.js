@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 5.2.4/15996
 // Filename: simplex_v5_autohide.ggsk
-// Generated Ср июн 10 00:15:39 2026
+// Generated Вс июл 12 23:37:44 2026
 
 function pano2vrSkin(player,base) {
 	var ggSkinVars = [];
