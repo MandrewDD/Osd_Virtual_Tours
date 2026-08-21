@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour apprev="15996" start="node1" appversion="5.2.4">
+  <panorama id="node1">
+    <input levelbias="0.400" levelbiashidpi="0.400" levelingroll="0" width="1000" leveltilesize="510" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1000" overlap="1" levelingpitch="0">
+      <level width="1000" preload="0" height="1000" predecode="0"/>
+      <level width="500" preload="1" height="500" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start tilt="0" fov="70" projection="4" pan="0"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fovfisheye="360" scaletofit="1" fov="120" fovstereographic="270" pan="360"/>
+    </view>
+    <userdata author="" latitude="" comment="" description="" customnodeid="" tags="TourKletka" longitude="" source="" title="" datetime="" copyright="" info=""/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label background="1" border="1" borderradius="1" bordercolor="0x000000" wordwrap="1" textalpha="1" backgroundcolor="0xffffff" width="180" borderalpha="1" enabled="1" textcolor="0x000000" height="20" backgroundalpha="1"/>
+      <polystyle bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot url="{node6}" tilt="7.7" description="" id="Point01" target="" title="" skinid="ht_node" pan="-2.18"/>
+      <hotspot url="{node5}" tilt="-14.05" description="" id="Point02" target="" title="" skinid="ht_node" pan="37.41"/>
+      <hotspot url="{node2}" tilt="-22.77" description="" id="Point03" target="" title="" skinid="ht_node" pan="-49.28"/>
+      <hotspot url="{node4}" tilt="-10.01" description="" id="Point04" target="" title="" skinid="ht_node" pan="-18.13"/>
+      <hotspot url="{node3}" tilt="25.38" description="" id="Point05" target="" title="" skinid="ht_node" pan="133.82"/>
+    </hotspots>
+    <media/>
+    <transition zoomspeed="2" zoomin="0" blendcolor="0x000000" enabled="0" zoomoutpause="1" type="crossdissolve" softedge="0" blendtime="1" zoomout="0" zoomfov="20"/>
+    <control hideabout="0" simulatemass="1" sensitivity="8" dblclickfullscreen="0" contextfullscreen="0" lockedwheel="0" rubberband="0" contextprojections="0" invertcontrol="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" lockedmouse="0" lockedkeyboard="0"/>
+  </panorama>
+  <panorama id="node2">
+    <input levelbias="0.400" levelbiashidpi="0.400" levelingroll="0" width="1000" leveltilesize="510" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1000" overlap="1" levelingpitch="0">
+      <level width="1000" preload="0" height="1000" predecode="0"/>
+      <level width="500" preload="1" height="500" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start tilt="0" fov="70" projection="4" pan="0"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fovfisheye="360" scaletofit="1" fov="120" fovstereographic="270" pan="360"/>
+    </view>
+    <userdata author="" latitude="" comment="" description="" customnodeid="" tags="TourKletka" longitude="" source="" title="" datetime="" copyright="" info=""/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label background="1" border="1" borderradius="1" bordercolor="0x000000" wordwrap="1" textalpha="1" backgroundcolor="0xffffff" width="180" borderalpha="1" enabled="1" textcolor="0x000000" height="20" backgroundalpha="1"/>
+      <polystyle bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot url="{node6}" tilt="7.31" description="" id="Point01" target="" title="" skinid="ht_node" pan="-1.38"/>
+      <hotspot url="{node3}" tilt="28.86" description="" id="Point02" target="" title="" skinid="ht_node" pan="87.91"/>
+      <hotspot url="{node1}" tilt="-13.61" description="" id="Point03" target="" title="" skinid="ht_node" pan="44.67"/>
+      <hotspot url="{node5}" tilt="-18.02" description="" id="Point04" target="" title="" skinid="ht_node" pan="-44.57"/>
+    </hotspots>
+    <media/>
+    <transition zoomspeed="2" zoomin="0" blendcolor="0x000000" enabled="0" zoomoutpause="1" type="crossdissolve" softedge="0" blendtime="1" zoomout="0" zoomfov="20"/>
+    <control hideabout="0" simulatemass="1" sensitivity="8" dblclickfullscreen="0" contextfullscreen="0" lockedwheel="0" rubberband="0" contextprojections="0" invertcontrol="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" lockedmouse="0" lockedkeyboard="0"/>
+  </panorama>
+  <panorama id="node3">
+    <input levelbias="0.400" levelbiashidpi="0.400" levelingroll="0" width="1000" leveltilesize="510" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1000" overlap="1" levelingpitch="0">
+      <level width="1000" preload="0" height="1000" predecode="0"/>
+      <level width="500" preload="1" height="500" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start tilt="0" fov="70" projection="4" pan="0"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fovfisheye="360" scaletofit="1" fov="120" fovstereographic="270" pan="360"/>
+    </view>
+    <userdata author="" latitude="" comment="" description="" customnodeid="" tags="TourKletka" longitude="" source="" title="" datetime="" copyright="" info=""/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label background="1" border="1" borderradius="1" bordercolor="0x000000" wordwrap="1" textalpha="1" backgroundcolor="0xffffff" width="180" borderalpha="1" enabled="1" textcolor="0x000000" height="20" backgroundalpha="1"/>
+      <polystyle bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot url="{node1}" tilt="-46.89" description="" id="Point01" target="" title="" skinid="ht_node" pan="-22.83"/>
+      <hotspot url="{node2}" tilt="-21.99" description="" id="Point02" target="" title="" skinid="ht_node" pan="-16.55"/>
+      <hotspot url="{node5}" tilt="-15.71" description="" id="Point03" target="" title="" skinid="ht_node" pan="23.91"/>
+      <hotspot url="{node4}" tilt="-30.3" description="" id="Point04" target="" title="" skinid="ht_node" pan="42.91"/>
+      <hotspot url="{node6}" tilt="-10.03" description="" id="Point05" target="" title="" skinid="ht_node" pan="5.82"/>
+    </hotspots>
+    <media/>
+    <transition zoomspeed="2" zoomin="0" blendcolor="0x000000" enabled="0" zoomoutpause="1" type="crossdissolve" softedge="0" blendtime="1" zoomout="0" zoomfov="20"/>
+    <control hideabout="0" simulatemass="1" sensitivity="8" dblclickfullscreen="0" contextfullscreen="0" lockedwheel="0" rubberband="0" contextprojections="0" invertcontrol="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" lockedmouse="0" lockedkeyboard="0"/>
+  </panorama>
+  <panorama id="node4">
+    <input levelbias="0.400" levelbiashidpi="0.400" levelingroll="0" width="1000" leveltilesize="510" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1000" overlap="1" levelingpitch="0">
+      <level width="1000" preload="0" height="1000" predecode="0"/>
+      <level width="500" preload="1" height="500" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start tilt="0" fov="70" projection="4" pan="0"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fovfisheye="360" scaletofit="1" fov="120" fovstereographic="270" pan="360"/>
+    </view>
+    <userdata author="" latitude="" comment="" description="" customnodeid="" tags="TourKletka" longitude="" source="" title="" datetime="" copyright="" info=""/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label background="1" border="1" borderradius="1" bordercolor="0x000000" wordwrap="1" textalpha="1" backgroundcolor="0xffffff" width="180" borderalpha="1" enabled="1" textcolor="0x000000" height="20" backgroundalpha="1"/>
+      <polystyle bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot url="{node1}" tilt="-9.62" description="" id="Point01" target="" title="" skinid="ht_node" pan="-21.46"/>
+      <hotspot url="{node2}" tilt="-12.58" description="" id="Point02" target="" title="" skinid="ht_node" pan="41.63"/>
+      <hotspot url="{node6}" tilt="3.97" description="" id="Point03" target="" title="" skinid="ht_node" pan="1.88"/>
+      <hotspot url="{node3}" tilt="26.71" description="" id="Point04" target="" title="" skinid="ht_node" pan="-36.53"/>
+    </hotspots>
+    <media/>
+    <transition zoomspeed="2" zoomin="0" blendcolor="0x000000" enabled="0" zoomoutpause="1" type="crossdissolve" softedge="0" blendtime="1" zoomout="0" zoomfov="20"/>
+    <control hideabout="0" simulatemass="1" sensitivity="8" dblclickfullscreen="0" contextfullscreen="0" lockedwheel="0" rubberband="0" contextprojections="0" invertcontrol="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" lockedmouse="0" lockedkeyboard="0"/>
+  </panorama>
+  <panorama id="node5">
+    <input levelbias="0.400" levelbiashidpi="0.400" levelingroll="0" width="1000" leveltilesize="510" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1000" overlap="1" levelingpitch="0">
+      <level width="1000" preload="0" height="1000" predecode="0"/>
+      <level width="500" preload="1" height="500" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start tilt="0" fov="70" projection="4" pan="0"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fovfisheye="360" scaletofit="1" fov="120" fovstereographic="270" pan="360"/>
+    </view>
+    <userdata author="" latitude="" comment="" description="" customnodeid="" tags="TourKletka" longitude="" source="" title="" datetime="" copyright="" info=""/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label background="1" border="1" borderradius="1" bordercolor="0x000000" wordwrap="1" textalpha="1" backgroundcolor="0xffffff" width="180" borderalpha="1" enabled="1" textcolor="0x000000" height="20" backgroundalpha="1"/>
+      <polystyle bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot url="{node6}" tilt="8.7" description="" id="Point01" target="" title="" skinid="ht_node" pan="-0.12"/>
+      <hotspot url="{node1}" tilt="-16.44" description="" id="Point02" target="" title="" skinid="ht_node" pan="-53.67"/>
+      <hotspot url="{node4}" tilt="-19.58" description="" id="Point03" target="" title="" skinid="ht_node" pan="45.83"/>
+      <hotspot url="{node2}" tilt="-5.58" description="" id="Point04" target="" title="" skinid="ht_node" pan="17.6"/>
+      <hotspot url="{node3}" tilt="33.02" description="" id="Point05" target="" title="" skinid="ht_node" pan="-112.51"/>
+    </hotspots>
+    <media/>
+    <transition zoomspeed="2" zoomin="0" blendcolor="0x000000" enabled="0" zoomoutpause="1" type="crossdissolve" softedge="0" blendtime="1" zoomout="0" zoomfov="20"/>
+    <control hideabout="0" simulatemass="1" sensitivity="8" dblclickfullscreen="0" contextfullscreen="0" lockedwheel="0" rubberband="0" contextprojections="0" invertcontrol="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" lockedmouse="0" lockedkeyboard="0"/>
+  </panorama>
+  <panorama id="node6">
+    <input levelbias="0.400" levelbiashidpi="0.400" levelingroll="0" width="1000" leveltilesize="510" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1000" overlap="1" levelingpitch="0">
+      <level width="1000" preload="0" height="1000" predecode="0"/>
+      <level width="500" preload="1" height="500" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start tilt="0" fov="70" projection="4" pan="0"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fovfisheye="360" scaletofit="1" fov="120" fovstereographic="270" pan="360"/>
+    </view>
+    <userdata author="" latitude="" comment="" description="" customnodeid="" tags="TourKletka" longitude="" source="" title="" datetime="" copyright="" info=""/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label background="1" border="1" borderradius="1" bordercolor="0x000000" wordwrap="1" textalpha="1" backgroundcolor="0xffffff" width="180" borderalpha="1" enabled="1" textcolor="0x000000" height="20" backgroundalpha="1"/>
+      <polystyle bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot url="{node1}" tilt="-21.45" description="" id="Point01" target="" title="" skinid="ht_node" pan="146.95"/>
+      <hotspot url="{node5}" tilt="-23.35" description="" id="Point02" target="" title="" skinid="ht_node" pan="32.73"/>
+      <hotspot url="{node5}" tilt="-16.96" description="" id="Point03" target="" title="" skinid="ht_node" pan="-110.63"/>
+    </hotspots>
+    <media/>
+    <transition zoomspeed="2" zoomin="0" blendcolor="0x000000" enabled="0" zoomoutpause="1" type="crossdissolve" softedge="0" blendtime="1" zoomout="0" zoomfov="20"/>
+    <control hideabout="0" simulatemass="1" sensitivity="8" dblclickfullscreen="0" contextfullscreen="0" lockedwheel="0" rubberband="0" contextprojections="0" invertcontrol="1" lockedkeyboardzoom="0" invertwheel="0" speedwheel="1" lockedmouse="0" lockedkeyboard="0"/>
+  </panorama>
+</tour>
